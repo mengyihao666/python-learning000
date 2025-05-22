@@ -5,7 +5,7 @@
 ## 功能简介
 
 - 安装并使用虚拟环境
-- 通过 requests 库发起 HTTP 请求
+- 通过SSH密钥连接GitHub
 - 版本管理用 Git + GitHub
 
 ## 环境准备
