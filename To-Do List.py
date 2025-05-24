@@ -1,5 +1,6 @@
 import json
 import os
+from pydoc import visiblename
 
 # 文件路径
 DATA_FILE = "tasks.json"
@@ -109,4 +110,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    vim还是nano编辑器？
+    vim是exit+wq
+    nano是ctrl+x
