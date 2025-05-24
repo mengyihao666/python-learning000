@@ -110,6 +110,4 @@ def main():
 
 
 if __name__ == "__main__":
-    vim还是nano编辑器？
-    vim是exit+wq
-    nano是ctrl+x
+大师我悟了！
