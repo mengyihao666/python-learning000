@@ -1,1 +1,1 @@
-print("Hello, Git and VS Code!")
+print(type("Hello, Git and VS Code!"))
