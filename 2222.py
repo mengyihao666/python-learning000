@@ -8,3 +8,6 @@ total = boys + girls
 # +
 print("我叫"+name+"，我的年龄是"+str(age)+"岁，身高"+str(height)+"，就读于"+school +
       "，我们班男同学人数是"+str(boys)+"，女同学人数是"+str(girls)+"，总共有"+str(total)+"人。")
+# 占位符%
+print("我叫%s，我的年龄是%d岁，身高%.2f，就读于%s，我们班男同学人数是%d，女同学人数是%d，总共有%d人。" %
+      (name, age, height, school, boys, girls, total))
