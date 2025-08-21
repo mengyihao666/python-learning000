@@ -1,8 +1,10 @@
-def university_admission(uni_name, major, score_line, admission_num, *teachers, **applicants):
+def university_admission(
+        uni_name, major, score_line, admission_num, *teachers, **applicants):
     applicant_scores = {name: int(score) for name, score in applicants.items()}
     total_applicants = len(applicant_scores)
     qualified_applicants = {
-        name: score for name, score in applicant_scores.items() if score >= score_line}
+        name: score for name, score in applicant_scores.items()
+        if score >= score_line}
     qualified_num = len(qualified_applicants)
     sorted_qualified = sorted(
         qualified_applicants.items(), key=lambda x: x[1], reverse=True)
