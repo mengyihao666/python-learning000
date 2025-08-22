@@ -150,3 +150,8 @@ def run_realtime_object_tracking():
 
     cap.release()
     cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    run_static_showcase(duration_ms=5000)
+    run_realtime_object_tracking()
